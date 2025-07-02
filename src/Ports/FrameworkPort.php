@@ -1,6 +1,6 @@
 <?php
 
-namespace Gnu\Scafy\Core\Ports;
+namespace Gnu\Scaffy\Core\Ports;
 /*
 *
 * Methods that return boolean values tell if the function completed successfully or not.
