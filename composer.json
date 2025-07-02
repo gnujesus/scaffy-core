@@ -1,0 +1,19 @@
+{
+    "name": "gnu/scaffy-core",
+    "description": "A package that generated models based on your database entities. Works for MS SQL Server, MySql & PostgreSql.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gnu\\Scaffy\\Core\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gnujesus",
+            "email": "jotamartinezd@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
