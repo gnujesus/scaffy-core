@@ -10,7 +10,7 @@ class IOHelper
 	/*
 	* Return the root directory of the project. This is, wherever the composer.json exists.
 	*/
-	static function findRootDirectory(string $suffix): string
+	static function findRootDirectory(string $suffix = ""): string
 	{
 		$dir = __DIR__;
 
