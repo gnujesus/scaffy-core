@@ -14,7 +14,7 @@ class IOHelper
 	{
 		$dir = __DIR__;
 
-		while (!file_exists($dir . "/composer.json" && !str_contains(dirname($dir), "vendor"))) {
+		while (!file_exists($dir . "/composer.json") || str_contains(dirname($dir), "vendor")) {
 			$parent = dirname($dir);
 			echo $parent . '\n\n';
 
