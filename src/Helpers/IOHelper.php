@@ -16,7 +16,7 @@ class IOHelper
 
 		while (!file_exists($dir . "/composer.json" && !str_contains(dirname($dir), "vendor"))) {
 			$parent = dirname($dir);
-			echo $parent;
+			echo $parent . '\n\n';
 
 			if ($parent === $dir) {
 				throw new \RuntimeException("Could not find project root (composer.json not found)");
